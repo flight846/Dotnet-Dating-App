@@ -23,7 +23,7 @@ namespace API
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(policy => policy.AllowAnyHeader()
-                    .AllowAnyMethod().WithOrigins("http://localhost:4200"));
+                    .AllowAnyMethod().WithOrigins("https://localhost:4200"));
             });
 
             services.AddSwaggerGen(c =>
